@@ -1,6 +1,6 @@
 .main{
     width:100%;
-    height:100%;
+    height:592px;
     display: flex;
 }
 
@@ -124,6 +124,7 @@ align-items: center;
 }
 .main-menu{
     display: flex;
+    position: relative;
 }
 .a{
     text-transform: uppercase;
@@ -144,3 +145,50 @@ align-items: center;
 .mainheader{
     background-color: rgb(26,183,255);
 }
+.baitap{
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        background-color: rgb(30,148,138)
+}
+.b{
+    text-transform: uppercase;
+    padding: 20px 50px;
+        color: white;
+        display: block;
+        text-decoration: none;
+        position: relative;
+        text-align: right;
+       
+}
+.sub-menu{
+    position: absolute;
+    background-color:rgb(30,148,138);
+    list-style: none;
+    padding: 10px 0px;
+    width: 200px;
+    left: 450px;
+ 
+    top: 100%;
+    display: none;
+   
+
+}
+.c{
+    text-transform: uppercase;
+    padding: 20px 50px;
+        color: white;
+        display: block;
+        text-decoration: none;
+        border-bottom: 1px solid #333;
+        text-align: center;
+        
+       
+}
+.lab1:hover .sub-menu{
+display:block;
+}
+
+
+
+
