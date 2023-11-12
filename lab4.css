@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .themsinhvien{
     width: 400px;
     height: 50px;
@@ -47,3 +48,54 @@
         outline-color: black;
         cursor: pointer;
 }
+=======
+.themsinhvien{
+    width: 400px;
+    height: 50px;
+    display: flex;
+
+}
+.them{
+    width: 500px;height: 30px;
+   
+ 
+    
+
+}
+.modal{
+    width: 500px;
+    height: 100%;
+    background-color: rgb(26,183,255);  
+}
+.logotimkiem{
+    width: 50px;
+    height: 35px;
+        background-image: url(anh/OIP.jpg);
+        background-repeat: no-repeat;
+
+        background-size: 100%;
+}
+.congcu{
+    width: 400px;
+    height: 100px;
+}
+.caccongcu{
+    display: flex;
+   list-style: none;
+   justify-content: space-between;
+}
+.c{
+    width: 40px;
+    height: 30px;
+    text-transform: uppercase;
+    padding: 5px 5px;
+    padding-top: 0px;
+    background-color: #fff;
+        
+        display: block;
+        text-decoration: none;
+        outline: auto;
+        outline-color: black;
+        cursor: pointer;
+}
+>>>>>>> 674a4978721eded5555e8a6d65103c00c17064a7
